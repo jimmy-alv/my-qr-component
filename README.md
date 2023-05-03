@@ -1,0 +1,1 @@
+my qr component solution

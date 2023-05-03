@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Outfit";
+}
+
+.qr-component {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    width: 320px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 8px 20px 20px rgba(187, 187, 187, 0.5);
+}
+
+.qr-component img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-component h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-component p {
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 30px;
+}
+
+.qr-component h1, .qr-component p {
+    text-align: center;
+}
